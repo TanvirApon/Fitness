@@ -102,6 +102,7 @@ button:hover{
 }
 .fitness_card .card-container{
     background-color: white;
+    margin: 70px -30px;
 }
 .fitness_card .card-container .card .icon{
     position: absolute;
@@ -117,10 +118,12 @@ button:hover{
 .fitness_card .card-container .card{
     position: relative;
     float: left;
-    width: 250px;
+    width: 25%;
     min-height: 250px;
     background-color: rgb(255, 177, 32);
     text-align: center;
+    padding: 0px 30px;
+    border: 8px solid white;
 }
 .fitness_card .card-container .card .card-text h5{
     font-size: 20px;
@@ -129,9 +132,8 @@ button:hover{
     width: 40px;
     height: 40px;
 }
-
-
-
-
+.fitness_card .card-container .card .card-text{
+    padding: 35px 10px;
+}
 
 /* fitness card ends here */
