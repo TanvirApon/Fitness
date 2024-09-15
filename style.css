@@ -51,8 +51,8 @@ body{
 .health_banner .banner-inside .buttn{
     width: 360px;
     position: absolute;
-    top: 420px;
-    left: 480px;
+    left: 40%;
+    bottom: 180px;
 }
 .health_banner .banner-inside .buttn .img-gallery{
     float: left;
@@ -74,7 +74,7 @@ button:hover{
 .health_banner .banner-inside .other-links .text-links{
     position: absolute;
     bottom: 125px;
-    left: 590px;
+    left: 45%;
     color: white;
 }
 .health_banner .banner-inside .other-links a{
@@ -84,7 +84,7 @@ button:hover{
 .health_banner .banner-inside .other-links .down-arrow{
     position: absolute;
     bottom: 20px;
-    left: 630px;
+    left: 47%;
 }
 .health_banner .banner-inside .other-links .down-arrow img{
     height: 50px;
@@ -95,6 +95,7 @@ button:hover{
 /* fitness card starts from here */
 .fitness_card{
     text-align: center;
+    margin-bottom: 30px;
 }
 .fitness_card .fitness-text{
     font-size: 50px;
@@ -135,5 +136,44 @@ button:hover{
 .fitness_card .card-container .card .card-text{
     padding: 35px 10px;
 }
-
 /* fitness card ends here */
+/* work_banner starts from here */
+.work_banner{
+    text-align: center;
+    position: relative;
+}
+.work_banner .workbanner-inside{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("images/banner_2.jpg");
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 70px;
+}
+.work_banner .workbanner-inside .workbanner-items{
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 20%;
+}
+.work_banner .workbanner-inside .workbanner-items .inside-text h3{
+    font-size: 50px;
+}
+.work_banner .workbanner-inside .workbanner-items .text-links{
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.work_banner .workbanner-inside .workbanner-items .text-links a{
+    text-decoration: underline;
+     color: white;
+}
+.work_banner .workbanner-inside .workbanner-items button{
+    padding: 25px 70px;
+    background-color: #ffb120;
+    color: black;
+    font-size: 30px;
+}
+
+/* work_banner ends here */
