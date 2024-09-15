@@ -1,0 +1,137 @@
+/* Some Default CSS style */
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+/* Default css ends here */
+
+/* health_banner starts from here */
+.health_banner{
+    text-align: center;
+    position: relative;
+}
+.health_banner .banner-inside{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("images/banner_bg.jpg");
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 70px;
+}
+.health_banner .banner-inside .banner-logo img{
+    padding: 20px;
+    height: 120px;
+    width: 200px;
+}
+.health_banner .banner-inside .banner-text{
+    color:white;
+    text-align: center;
+}
+.health_banner .banner-inside .banner-text h2{
+    font-size: 55px;
+}
+.health_banner .banner-inside .banner-text .text-timing{
+    line-height: 1.5;
+    font-size: 20px;
+}
+.health_banner .banner-inside .buttn{
+    width: 360px;
+    position: absolute;
+    top: 420px;
+    left: 480px;
+}
+.health_banner .banner-inside .buttn .img-gallery{
+    float: left;
+}
+.health_banner .banner-inside .buttn .recrd-class{
+    float: right;
+}
+button{
+    padding:15px 20px;
+    background: transparent;
+    color: white;
+    border-color: #ffb120;
+}
+button:hover{
+    background-color: #ffb120;
+    color: black;
+    font-weight: bold;
+}
+.health_banner .banner-inside .other-links .text-links{
+    position: absolute;
+    bottom: 125px;
+    left: 590px;
+    color: white;
+}
+.health_banner .banner-inside .other-links a{
+    text-decoration: underline;
+    color: white;
+}
+.health_banner .banner-inside .other-links .down-arrow{
+    position: absolute;
+    bottom: 20px;
+    left: 630px;
+}
+.health_banner .banner-inside .other-links .down-arrow img{
+    height: 50px;
+    width: 50px;
+}
+/* health_banner ends here */
+
+/* fitness card starts from here */
+.fitness_card{
+    text-align: center;
+}
+.fitness_card .fitness-text{
+    font-size: 50px;
+    font-weight: bold;
+}
+.fitness_card .card-container{
+    background-color: white;
+}
+.fitness_card .card-container .card .icon{
+    position: absolute;
+    top:-45px;
+    left:35%;
+    background-color: white;
+    border: 5px solid #ffb120;
+}
+.fitness_card .card-container .card .icon img{
+    height: 80px;
+    width: 80px;
+}
+.fitness_card .card-container .card{
+    position: relative;
+    float: left;
+    width: 250px;
+    min-height: 250px;
+    background-color: rgb(255, 177, 32);
+    text-align: center;
+}
+.fitness_card .card-container .card .card-text h5{
+    font-size: 20px;
+}
+.fitness_card .card-container .card .arrow img{
+    width: 40px;
+    height: 40px;
+}
+
+
+
+
+
+/* fitness card ends here */
