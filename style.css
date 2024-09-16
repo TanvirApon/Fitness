@@ -51,8 +51,8 @@ body{
 .health_banner .banner-inside .buttn{
     width: 360px;
     position: absolute;
-    top: 420px;
-    left: 480px;
+    left: 40%;
+    bottom: 180px;
 }
 .health_banner .banner-inside .buttn .img-gallery{
     float: left;
@@ -74,7 +74,7 @@ button:hover{
 .health_banner .banner-inside .other-links .text-links{
     position: absolute;
     bottom: 125px;
-    left: 590px;
+    left: 45%;
     color: white;
 }
 .health_banner .banner-inside .other-links a{
@@ -83,8 +83,8 @@ button:hover{
 }
 .health_banner .banner-inside .other-links .down-arrow{
     position: absolute;
-    bottom: 20px;
-    left: 630px;
+    bottom: 40px;
+    left: 48%;
 }
 .health_banner .banner-inside .other-links .down-arrow img{
     height: 50px;
@@ -95,6 +95,7 @@ button:hover{
 /* fitness card starts from here */
 .fitness_card{
     text-align: center;
+    margin-bottom: 30px;
 }
 .fitness_card .fitness-text{
     font-size: 50px;
@@ -102,7 +103,7 @@ button:hover{
 }
 .fitness_card .card-container{
     background-color: white;
-    margin: 70px -30px;
+    margin: 70px -2px;
 }
 .fitness_card .card-container .card .icon{
     position: absolute;
@@ -119,10 +120,10 @@ button:hover{
     position: relative;
     float: left;
     width: 25%;
-    min-height: 250px;
+    /* min-height: 250px; */
     background-color: rgb(255, 177, 32);
     text-align: center;
-    padding: 0px 30px;
+    padding: 50px 2px;
     border: 8px solid white;
 }
 .fitness_card .card-container .card .card-text h5{
@@ -132,7 +133,135 @@ button:hover{
     width: 40px;
     height: 40px;
 }
-.fitness_card .card-container .card .card-text{
-    padding: 35px 10px;
-}
 /* fitness card ends here */
+/* work_banner starts from here */
+.work_banner{
+    text-align: center;
+    position: relative;
+}
+.work_banner .workbanner-inside{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("images/banner_2.jpg");
+    height: 650px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 70px;
+}
+.work_banner .workbanner-inside .workbanner-items{
+    color: white;
+    position: absolute;
+    top: 150px;
+    left: 20%;
+}
+.work_banner .workbanner-inside .workbanner-items .inside-text h3{
+    font-size: 50px;
+}
+.work_banner .workbanner-inside .workbanner-items .text-links{
+    font-size: 20px;
+    margin-bottom: 35px;
+}
+.work_banner .workbanner-inside .workbanner-items .text-links a{
+    text-decoration: underline;
+     color: white;
+}
+.work_banner .workbanner-inside .workbanner-items button{
+    padding: 25px 70px;
+    background-color: #ffb120;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+}
+/* work_banner ends here */
+/* image section starts from here */
+/* top-section */
+.image-section .top-section .top-image{
+    float: left;
+}
+.image-section .top-section .top-image img{
+    height: 380px;
+}
+.image-section .top-section .top-text{
+    float: right;
+    width: 34%;
+    padding: 60px 20px;
+}
+.image-section .top-section .top-text .cta-button{
+    padding: 15px 20px;
+    background:  #ffb120;
+    color: black;
+    font-weight: bold;
+}
+/* bottom-section */
+.image-section .bottom-section .bottom-image{
+    float: right;
+    margin: -50px;
+}
+.image-section .bottom-section .bottom-image img{
+    height: 380px;
+}
+.image-section .bottom-section .bottom-text{
+    float: left;
+    width: 34%;
+    padding: 60px 20px;
+}
+.image-section .bottom-section .bottom-text .cta-button{
+    padding: 15px 20px;
+    background:  #beaf92;
+    color: black;
+    font-weight: bold;
+    border:none;
+    margin-bottom: 10px;
+}
+.image-section .bottom-section .bottom-text .text-links{
+    color: black;
+    font-style: italic;
+}
+.image-section .bottom-section .bottom-text .text-links .freepik{
+    text-decoration: underline;
+    color: black;
+    font-style: italic;
+}
+/* image section ends here */
+
+/* member-option starts from here */
+.member-option{
+    text-align: center;
+    position: relative; 
+    text-align: center;
+}
+.member-option .member-inside{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("images/banner_3.jpg");
+    height: 450px;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 70px;
+}
+.member-option .member-inside .member-heading{
+    color: white;
+    padding: 30px;
+    font-size: 55px;
+}
+.member-option .member-inside .member-text{
+    color: white;
+    font-size: 25px;
+}
+.member-card{
+    position: absolute;
+    top: 345px;
+    left: 28%;
+}
+.member-card .card{
+    float: left;
+    background: transparent;
+    width: 33.33%;
+    background-color: rgb(233, 233, 233);
+    text-align: center;
+    border: 1px solid #ffb120;
+
+}
+
+/* member-option ends here */
