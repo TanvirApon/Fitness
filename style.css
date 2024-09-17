@@ -12,7 +12,7 @@ body{
     display: table;
 }
 .container {
-    width: 1000px;
+    width: 1200px;
     margin: 0 auto;
 }
 /* Default css ends here */
@@ -297,7 +297,113 @@ button:hover{
 .amenities-section{
     text-align: center;
 }
+.amenities-section .amenities-inside{
+    margin-bottom: 20px;
+}
 .amenities-section .amenities-inside .amenities-heading{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.amenities-section .amenities-inside .amenities-text{
     font-size: 30px;
+    margin-bottom: 35px;
+}
+.amenities-section .amenities-inside .amenities-card{
+    margin: 0px -10px;
+
+}
+.amenities-section .amenities-inside .amenities-card .card{
+    width: 33.33%;
+    position: relative;
+    float: left;
+    padding: 10px;
+}
+.amenities-section .amenities-inside .amenities-card .card .card-1-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("images/card_bg1.jpg");
+    height: 450px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.amenities-section .amenities-inside .amenities-card .card .card-1-button{
+    position: absolute;
+    left: 105px;
+    top: 175px;
+}
+.card-button{
+    padding: 15px 20px;
+    background-color: #ffb120;
+    color: black;
+}
+.amenities-section .amenities-inside .amenities-card .card .card-2-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("images/card_bg2.jpg");
+    height: 450px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.amenities-section .amenities-inside .amenities-card .card .card-2-button{
+    position: absolute;
+    left: 105px;
+    top: 175px;
+}
+.amenities-section .amenities-inside .amenities-card .card .card-3-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("images/card_bg3.jpg");
+    height: 450px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.amenities-section .amenities-inside .amenities-card .card .card-3-button{
+    position: absolute;
+    left: 105px;
+    top: 175px;
+}
+
+.amenities-section .amenities-inside .amenities-card .card .card-4-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("images/card_bg4.jpg");
+    height: 450px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.amenities-section .amenities-inside .amenities-card .card .card-4-button{
+    position: absolute;
+    left: 105px;
+    top: 175px;
+}
+.amenities-section .amenities-inside .amenities-card .card .card-5-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("images/card_bg5.jpg");
+    height: 450px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.amenities-section .amenities-inside .amenities-card .card .card-5-button{
+    position: absolute;
+    left: 105px;
+    top: 175px;
+}
+.amenities-section .amenities-inside .amenities-card .card .card-6-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("images/card_bg6.jpg");
+    height: 450px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+.amenities-section .amenities-inside .amenities-card .card .card-6-button{
+    position: absolute;
+    left: 105px;
+    top: 175px;
+}
+.amenities-section .text-links a{
+    text-decoration: underline;
+    color: black;
 }
 /* amenities-section ends here */
