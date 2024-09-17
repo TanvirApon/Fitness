@@ -225,13 +225,13 @@ button:hover{
 }
 /* image section ends here */
 
-/* member-option starts from here */
-.member-option{
+/* member-section starts from here */
+.member-section{
     text-align: center;
     position: relative; 
-    text-align: center;
+    height: 730px;
 }
-.member-option .member-inside{
+.member-section .member-background{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
     url("images/banner_3.jpg");
     height: 450px;
@@ -240,28 +240,64 @@ button:hover{
     background-size: cover;
     margin-bottom: 70px;
 }
-.member-option .member-inside .member-heading{
+.member-section .member-background .member-inside{
+    margin-bottom: 25px;
+}
+.member-section .member-background .member-inside .member-heading{
     color: white;
     padding: 30px;
     font-size: 55px;
 }
-.member-option .member-inside .member-text{
+.member-section .member-background .member-inside .member-text{
     color: white;
     font-size: 25px;
+    margin-bottom: 45px;
 }
-.member-card{
-    position: absolute;
-    top: 345px;
-    left: 28%;
+.member-section .member-background .text-links a{
+    text-decoration: underline;
+    color: black;
 }
-.member-card .card{
+.member-section .member-background .member-inside .member-card{
+
+}
+.member-section .member-background .member-inside .member-card .card{
     float: left;
-    background: transparent;
-    width: 33.33%;
-    background-color: rgb(233, 233, 233);
+    width: 29%;
+    height: 350px;
+    background-color: #fffcf1;
     text-align: center;
-    border: 1px solid #ffb120;
-
+    border: 3px solid #ffb120;
+    margin: 0px 20px;
 }
-
-/* member-option ends here */
+.member-section .member-background .member-inside .member-card .card .card-heading{
+    font-size: 30px;
+    padding: 20px;
+    font-weight: bold;
+}
+.member-section .member-background .member-inside .member-card .card .card-text{
+    font-size: 20px;
+    padding: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.member-section .member-background .member-inside .member-card .card .member-btn{
+    background-color: #ffb120;
+    color: black;
+    font-weight: bold;
+    padding: 12px 45px;
+}
+.member-section .member-background .member-inside .member-card .card .member-btn:hover{
+    background-color: #ffb120;
+    color: black;
+    font-weight: bold;
+    padding: 12px 45px;
+}
+/* member-section ends here */
+/* amenities-section starts from here */
+.amenities-section{
+    text-align: center;
+}
+.amenities-section .amenities-inside .amenities-heading{
+    font-size: 30px;
+}
+/* amenities-section ends here */
