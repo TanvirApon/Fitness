@@ -296,6 +296,7 @@ button:hover{
 /* amenities-section starts from here */
 .amenities-section{
     text-align: center;
+    margin-bottom: 45px;
 }
 .amenities-section .amenities-inside{
     margin-bottom: 20px;
@@ -328,13 +329,14 @@ button:hover{
 }
 .amenities-section .amenities-inside .amenities-card .card .card-1-button{
     position: absolute;
-    left: 105px;
-    top: 175px;
+    left: 85px;
+    top: 190px;
 }
 .card-button{
-    padding: 15px 20px;
+    padding: 15px 35px;
     background-color: #ffb120;
     color: black;
+    font-size: 18px;
 }
 .amenities-section .amenities-inside .amenities-card .card .card-2-image{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
@@ -346,8 +348,8 @@ button:hover{
 }
 .amenities-section .amenities-inside .amenities-card .card .card-2-button{
     position: absolute;
-    left: 105px;
-    top: 175px;
+    left: 85px;
+    top: 190px;
 }
 .amenities-section .amenities-inside .amenities-card .card .card-3-image{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
@@ -359,8 +361,8 @@ button:hover{
 }
 .amenities-section .amenities-inside .amenities-card .card .card-3-button{
     position: absolute;
-    left: 105px;
-    top: 175px;
+    left: 85px;
+    top: 190px;
 }
 
 .amenities-section .amenities-inside .amenities-card .card .card-4-image{
@@ -373,8 +375,8 @@ button:hover{
 }
 .amenities-section .amenities-inside .amenities-card .card .card-4-button{
     position: absolute;
-    left: 105px;
-    top: 175px;
+    left: 85px;
+    top: 190px;
 }
 .amenities-section .amenities-inside .amenities-card .card .card-5-image{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
@@ -386,8 +388,8 @@ button:hover{
 }
 .amenities-section .amenities-inside .amenities-card .card .card-5-button{
     position: absolute;
-    left: 105px;
-    top: 175px;
+    left: 85px;
+    top: 190px;
 }
 .amenities-section .amenities-inside .amenities-card .card .card-6-image{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
@@ -399,11 +401,26 @@ button:hover{
 }
 .amenities-section .amenities-inside .amenities-card .card .card-6-button{
     position: absolute;
-    left: 105px;
-    top: 175px;
+    left: 85px;
+    top: 190px;
 }
 .amenities-section .text-links a{
     text-decoration: underline;
     color: black;
 }
 /* amenities-section ends here */
+
+/* follow-section starts from here */
+.follow-section{
+    text-align: center;
+}
+.follow-section .follow-section-inside{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("images/banner_bg1.jpg");
+    height: 650px;
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 70px;
+}
+/* follow-section ends here */
