@@ -413,6 +413,8 @@ button:hover{
 /* follow-section starts from here */
 .follow-section{
     text-align: center;
+    position: relative;
+    
 }
 .follow-section .follow-section-inside{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
@@ -422,5 +424,134 @@ button:hover{
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 70px;
+    
 }
+.follow-section .follow-section-inside .follow-section-items{
+    position: absolute;
+    top: 25%;
+    left: 16%;
+}
+.follow-section .follow-section-inside .follow-section-items .inside-img{
+    margin-bottom:5px;
+   
+}
+.follow-section .follow-section-inside .follow-section-items .inside-heading{
+    color: white;
+    font-size: 65px;
+    margin-bottom: 10px;   
+}
+.follow-section .follow-section-inside .follow-section-items .inside-text{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+.follow-section .follow-section-inside .follow-section-items .inside-text a{
+    color: #ffb120;
+    text-decoration: none;
+}
+.follow-section .follow-section-inside .follow-section-items .inside-links, .inside-links a{
+    color: white;
+    font-style: italic; 
+}
+
 /* follow-section ends here */
+
+/* our-trainer section starts from here */
+.our-trainer{
+    margin-bottom: 50px;
+
+}
+.our-trainer .our-trainer-text{
+    float: left;
+    width: 50%;
+    margin-top: 50px;
+}
+.our-trainer .our-trainer-text .heading{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.our-trainer .our-trainer-text .text{
+    width: 381px;
+    font-size: 22px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.our-trainer .our-trainer-text .links, .links a{
+    color: black;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.our-trainer .our-trainer-text button{
+    background-color:#ffb120;
+    color: black;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.our-trainer .our-trainer-image{
+    float: left;
+    width: 50%;
+}
+.our-trainer .our-trainer-image .our-trainer-card{
+    margin: 0px -20px;
+}
+.our-trainer .our-trainer-image .our-trainer-card .card{
+    float: left;
+    width: 50%;
+    padding: 10px 20px;
+   
+}
+.our-trainer .our-trainer-image .our-trainer-card .card img{
+    height: 300px;
+    width: 300px;
+
+}
+/* our-trainer ends here */
+
+
+/* personal_training-section starts from here */
+.personal_training{
+    text-align: center;
+    position: relative;
+    
+}
+.personal_training .personal_training-inside{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("images/banner_bg3.jpg");
+    height: 650px;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 70px;
+    
+}
+.personal_training .personal_training-inside .personal_training-items{
+    position: absolute;
+    top: 25%;
+    left: 16%;
+}
+.personal_training .personal_training-inside .personal_training-items .inside-img{
+    margin-bottom:5px;
+   
+}
+.personal_training .personal_training-inside .personal_training-items .inside-heading{
+    color: white;
+    font-size: 65px;
+    margin-bottom: 10px;   
+}
+.personal_training .personal_training-inside .personal_training-items .inside-text{
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+}
+.personal_training .personal_training-inside .personal_training-items .inside-text a{
+    color: #ffb120;
+    text-decoration: none;
+}
+.personal_training .personal_training-inside .personal_training-items .inside-links, .inside-links a{
+    color: white;
+    font-style: italic; 
+}
+
+/* personal_training ends here */
