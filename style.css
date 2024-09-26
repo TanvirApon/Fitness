@@ -176,7 +176,7 @@ button:hover{
 /* work_banner ends here */
 /* invite-inspiring section starts from here */
 .invite-inspiring {
-
+position: relative;
 }
 .invite-inspiring .invite-image{
     float: left;
@@ -186,12 +186,91 @@ button:hover{
 }
 .invite-inspiring .invite-text{
     float: left;
-    
+    position: absolute;
+    right: 20%;
+    top: 15%;
 }
-
-
-
+.invite-inspiring .invite-text h5{
+    font-size: 18px;
+}
+.invite-inspiring .invite-text .text{
+    width: 290px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
 /* invite-inspiring section ends here */
+    
+/* work-hard section starts from here */
+.background-section .work-section {
+    position: relative;
+    margin-bottom: 250px;
+    }
+.background-section  .work-section .work-image{
+        float: right;
+        position: absolute;
+        right: 13%;
+        top: -29px;
+    }
+.background-section .work-section .work-image img{
+        height: 380px;
+    }
+.background-section .work-section .work-text{
+        float: left;
+        position: absolute;
+        left: 8%;
+        top: 140px;
+    }
+.background-section .work-section .work-text h5{
+        font-size: 18px;
+    }
+.background-section .work-section .work-text .text{
+        width: 400px;
+        line-height: 1.5;
+        margin-bottom: 15px;
+    }
+.background-section .work-section .work-text .button{
+       margin-bottom: 40px;
+    }
+.background-section .work-section .work-text .text-links,a{
+        color: black;
+        font-style: italic;
+     }
+     
+    /* work-hard section ends here */
+
+/* background section starts from here */
+.background{
+    margin-bottom: 500px;
+    position: relative;
+}
+.background-inside{
+    background-color: #ffb120;
+    height: 230px;
+    text-align: center;
+    margin-bottom: 500px;
+   
+}
+/* background section ends here */
+
+/*benefit section starts from here */
+/* .benefit-section{
+    background-color: #ffb120;
+    margin-bottom: 500px;
+    text-align: center;
+   
+}
+.benefit-section .benefit-inside .benefit-heading{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.benefit-section .benefit-inside .benefit-card .card{
+    width: 25%;
+    padding:0px 10px;
+    background-color: #fffcf1;
+
+} */
+/* benefit section ends here */
 
 
 
@@ -452,14 +531,13 @@ button:hover{
     font-size: 20px;
     margin-bottom: 20px;
 }
-.our-trainer .our-trainer-text button{
-    background-color:#ffb120;
+.member-btn{
+    background-color: #ffb120;
     color: black;
-    padding: 20px 40px;
-    font-size: 20px;
+    padding: 15px 30px;
+    font-size: 15px;
     font-weight: bold;
 }
-
 .our-trainer .our-trainer-image{
     float: left;
     width: 50%;
@@ -470,8 +548,7 @@ button:hover{
 .our-trainer .our-trainer-image .our-trainer-card .card{
     float: left;
     width: 50%;
-    padding: 10px 20px;
-   
+    padding: 10px 20px; 
 }
 .our-trainer .our-trainer-image .our-trainer-card .card img{
     height: 300px;
