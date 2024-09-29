@@ -5,6 +5,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
+    margin: 0;
 }
 .clearfix::after {
     content: "";
@@ -20,7 +21,6 @@ body{
 /* health_banner starts from here */
 .health_banner{
     text-align: center;
-    position: relative;
 }
 .health_banner .banner-inside{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
@@ -175,68 +175,130 @@ button:hover{
 }
 /* work_banner ends here */
 /* invite-inspiring section starts from here */
-.invite-inspiring {
-position: relative;
+.invite-work{
+    margin-bottom: 240px;
 }
-.invite-inspiring .invite-image{
+.invite-work .invite-inspiring {
+    position: relative;
+}
+.invite-work .invite-inspiring .invite-image{
     float: left;
 }
-.invite-inspiring .invite-image img{
+.invite-work .invite-inspiring .invite-image img{
     height: 380px;
 }
-.invite-inspiring .invite-text{
+.invite-work .invite-inspiring .invite-text{
     float: left;
     position: absolute;
     right: 20%;
     top: 15%;
 }
-.invite-inspiring .invite-text h5{
+.invite-work .invite-inspiring .invite-text h5{
     font-size: 18px;
 }
-.invite-inspiring .invite-text .text{
+.invite-work .invite-inspiring .invite-text .text{
     width: 290px;
     line-height: 1.5;
     margin-bottom: 15px;
-}
-/* invite-inspiring section ends here */
-    
-/* work-hard section starts from here */
-.background-section .work-section {
+}   
+.invite-work .work-section {
     position: relative;
     margin-bottom: 250px;
-    }
-.background-section  .work-section .work-image{
-        float: right;
-        position: absolute;
-        right: 13%;
-        top: -29px;
-    }
-.background-section .work-section .work-image img{
-        height: 380px;
-    }
-.background-section .work-section .work-text{
-        float: left;
-        position: absolute;
-        left: 8%;
-        top: 140px;
-    }
-.background-section .work-section .work-text h5{
-        font-size: 18px;
-    }
-.background-section .work-section .work-text .text{
-        width: 400px;
-        line-height: 1.5;
-        margin-bottom: 15px;
-    }
-.background-section .work-section .work-text .button{
-       margin-bottom: 40px;
-    }
-.background-section .work-section .work-text .text-links,a{
-        color: black;
-        font-style: italic;
-     }
-     
-    /* work-hard section ends here */
+}
+.invite-work  .work-section .work-image{
+    float: right;
+    position: absolute;
+    right: 13%;
+    top: -29px;
+}
+.invite-work .work-section .work-image img{
+    height: 380px;
+}
+.invite-work .work-section .work-text{
+    float: left;
+    position: absolute;
+    left: 8%;
+    top: 140px;
+}
+.invite-work .work-section .work-text h5{
+    font-size: 18px;
+}
+.invite-work .work-section .work-text .text{
+    width: 400px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+.invite-work .work-section .work-text .button{
+    margin-bottom: 40px;
+}
+.invite-work .work-section .work-text .button .work-btn{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+.invite-work .work-section .work-text .text-links,a{
+    color: black;
+    font-style: italic;
+}  
+/* invite-inspiring section ends here */
+
+/* benefit-section starts from here */
+.benefit-section{
+    background-color: #ffb120;
+    height: 800px;
+    text-align: center;
+    margin-bottom: 100px;
+    position: relative; 
+    background-size: cover;
+    z-index: -1;
+
+}
+.benefit-section .benefit-background{ 
+}
+.benefit-section .benefit-background .benefit-inside{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+}
+.benefit-section .benefit-background .benefit-inside .heading{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.benefit-section .benefit-background .benefit-inside .benefit-card{
+    m: 0px -15px;
+}
+.benefit-section .benefit-background .benefit-inside .benefit-card .card{
+    float: left;
+    width: 25%;
+    height: 300px;
+    background-color: white;
+    padding: 0px 15px;
+}
+.benefit-section .benefit-background .benefit-inside .benefit-card .card .card-head{
+    font-size: 26px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.benefit-section .benefit-background .benefit-inside .benefit-card .card .card-text{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* benefit-section ends here */
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* background section starts from here */
 .background{
